@@ -1,0 +1,4 @@
+interface OrderItemInterface {
+    item_thumbnail_url: String @doc(description: "Product thumbnail image URL for the order item") @resolver(class: "Avenyra\\OrderItemImages\\Model\\Resolver\\OrderItemThumbnailUrl")
+}
+
