@@ -1,3 +1,7 @@
+[![Latest Stable Version](http://poser.pugx.org/avenyra/module-order-item-images/v)](https://packagist.org/packages/avenyra/module-order-item-images)
+[![Total Downloads](http://poser.pugx.org/avenyra/module-order-item-images/downloads)](https://packagist.org/packages/avenyra/module-order-item-images)
+[![License](http://poser.pugx.org/avenyra/module-order-item-images/license)](https://packagist.org/packages/avenyra/module-order-item-images)
+
 # Avenyra Order Item Images
 
 A Magento 2 module that captures and stores product thumbnail images for order items, making them available in the admin panel on order view page and via GraphQL for headless storefronts.
