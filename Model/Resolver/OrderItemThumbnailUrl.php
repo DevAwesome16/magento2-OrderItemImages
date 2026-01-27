@@ -41,10 +41,10 @@ class OrderItemThumbnailUrl implements ResolverInterface
      */
     public function resolve(
         Field $field,
-        $context,
+        ContextInterface $context,
         ResolveInfo $info,
-        array $value = null,
-        array $args = null
+        ?array $value = null,
+        ?array $args = null
     ): ?string {
         if (!isset($value['model'])) {
             return null;
@@ -56,4 +56,3 @@ class OrderItemThumbnailUrl implements ResolverInterface
         return $this->imageHelper->getThumbnailOrPlaceholder($imageUrl);
     }
 }
-
